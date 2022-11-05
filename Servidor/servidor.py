@@ -18,7 +18,7 @@ def ini():
     playsound("audios/ini.wav")
 
 def getPasssword (password):
-    playsound("audios/getPassword.wav")
+    playsound("audios/getPasword.wav")
     print("Digite la contrasena")
     playsound("audios/primero.wav")
     print("Ingrese primer digito de la contrasena")
@@ -35,6 +35,7 @@ def getPasssword (password):
     listenPassword = number1 + number2 + number3 + number4
     print(listenPassword )
     if listenPassword  != password:
+        playsound("audios/wrongPassword.wav")
         print("Contrasena incorrecta")
         number1 = ""
         number2 = ""
@@ -43,38 +44,54 @@ def getPasssword (password):
         getPasssword (password)     
 
 def readMessages():
+    playsound("audios/readMessages.wav")
     print("No hay mensajes nuevos")
     
 def printNumber(number):
     if number == '1':
         print('1')
+        playsound("audios/uno.wav")
     elif number == '2':
         print('2')
+        playsound("audios/dos.wav")
     elif number == '3':
         print('3')
+        playsound("audios/tres.wav")
     elif number == '4':
         print('4')
+        playsound("audios/cuatro.wav")
     elif number == '5':
         print('5')
+        playsound("audios/cinco.wav")
     elif number == '6':
         print('6')
+        playsound("audios/seis.wav")
     elif number == '7':
         print('7')
+        playsound("audios/siete.wav")
     elif number == '8':
         print('8')
+        playsound("audios/ocho.wav")
     elif number == '9':
+        playsound("audios/nueve.wav")
         print('9')
     elif number == '0':
+        playsound("audios/cero.wav")
         print('0')
     elif number == 'A':
+        playsound("audios/A.wav")
         print('A')
     elif number == 'B':
+        playsound("audios/B.wav")
         print('B')
     elif number == 'C':
+        playsound("audios/C.wav")
         print('C')
     elif number == '#':
+        playsound("audios/hastag.wav")
         print('#')
     else:
+        playsound("audios/punto.wav")
         print('.')
 
 def changePassword():
@@ -93,6 +110,7 @@ def changePassword():
     print("Ingrese cuarto digito de la nueva contrasena")
     number4 = get_tone()
     password = number1 + number2 + number3 + number4
+    playsound("audios/newPassword.wav")
     print("La nueva contrasena es: ")
     printNumber(number1)
     printNumber(number2)
