@@ -73,12 +73,9 @@ def get_tone():
         number = '.'
         return number
     else:
-        print("Dgite nuevemente el numero: ")
+        print("Digite nuevemente el numero: ")
         number= get_tone()
         return number
 
     
     
-
-number = get_tone()
-print(number)
