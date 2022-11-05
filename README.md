@@ -5,3 +5,5 @@ El cliente se desarrollo en Windows 10 mientras que el Servidor fue hecho en Ubu
 El cliente.py sirve para emitir un tono acorde a la tecla que se digite en el teclado, en el caso de las letras deben estar en mayuscula. 
 En el caso de servidor.py da instrucciones al usuario mediante audio y pantalla y espera a escuchar el tono que el mismo genere a travez de cliente.py. 
 De lado del cliente debe esperarse a que el Servido indique "Escuchando" para insertar el nuevo digito. 
+Los videos con los demos se puede encontrar en los siguientes links: 
+
