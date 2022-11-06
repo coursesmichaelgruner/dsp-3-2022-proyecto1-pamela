@@ -7,3 +7,7 @@ En el caso de servidor.py da instrucciones al usuario mediante audio y pantalla 
 De lado del cliente debe esperarse a que el Servido indique "Escuchando" para insertar el nuevo digito. 
 Los videos con los demos se puede encontrar en los siguientes links: 
 
+https://youtu.be/JQPRd2SF6J0
+
+https://youtu.be/Bd3Rjtf9HsU
+
